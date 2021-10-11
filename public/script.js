@@ -13,7 +13,7 @@ import * as serviceWorker from './worker.js';
 
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', function () {
-        navigator.serviceWorker.register('/worker.js', {scope: '/'}).then(function (registration) {
+        navigator.serviceWorker.register('/classroom/worker.js', {scope: '/classroom'}).then(function (registration) {
             console.log('Worker registration successful', registration.scope);
         }, function (err) {
             console.log('Worker registration failed', err);
@@ -27,7 +27,7 @@ if ('serviceWorker' in navigator) {
 
 if ('serviceWorker' in navigator) {
     window.addEventListener('load', function () {
-        navigator.serviceWorker.register('/worker.js', {scope: '/'}).then(function (registration) {
+        navigator.serviceWorker.register('/classroom/worker.js', {scope: '/classroom'}).then(function (registration) {
             console.log('Worker registration successful', registration.scope);
         }, function (err) {
             console.log('Worker registration failed', err);

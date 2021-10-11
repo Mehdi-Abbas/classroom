@@ -1,7 +1,7 @@
 var CACHE_NAME = 'classroom-cache';
 var urlsToCache = [
   '/',
-  '/index.html'
+  '/classroom/index.html'
   
   
 ];

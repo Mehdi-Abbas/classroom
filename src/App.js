@@ -21,13 +21,13 @@ export default function App() {
         <Navbar/>
         <div id="main" style={{padding:"8px"}}>
           <Switch>
-          <Route exact path="/">
+          <Route exact path="/classroom/">
             <Stream />
           </Route>
-          <Route path="/classwork">
+          <Route path="/classroom/classwork">
             <Classwork />
           </Route>
-          <Route path="/people">
+          <Route path="/classroom/people">
             <People />
           </Route>
         </Switch>
