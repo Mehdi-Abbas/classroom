@@ -15,19 +15,19 @@ import Navbar from './components/Navbar';
 export default function App() {
   const { height} = UseWindowDimensions();
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
 
       <div style={{ display: "flex",flexDirection:"column",  height: height, justifyContent:"space-between", position:"relative"}}>
         <Navbar/>
         <div id="main" style={{padding:"8px"}}>
           <Switch>
-          <Route exact path="/classroom/">
+          <Route exact path="/">
             <Stream />
           </Route>
-          <Route path="/classroom/classwork">
+          <Route path="/classwork">
             <Classwork />
           </Route>
-          <Route path="/classroom/people">
+          <Route path="/people">
             <People />
           </Route>
         </Switch>
