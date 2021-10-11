@@ -1,7 +1,7 @@
 import './App.css';
 import React from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
@@ -15,19 +15,19 @@ import Navbar from './components/Navbar';
 export default function App() {
   const { height} = UseWindowDimensions();
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
 
       <div style={{ display: "flex",flexDirection:"column",  height: height, justifyContent:"space-between", position:"relative"}}>
         <Navbar/>
         <div id="main" style={{padding:"8px"}}>
           <Switch>
-          <Route exact path="/">
+          <Route exact path="/classroom/">
             <Stream />
           </Route>
-          <Route path="/classwork">
+          <Route path="/classroom/classwork">
             <Classwork />
           </Route>
-          <Route path="/people">
+          <Route path="/classroom/people">
             <People />
           </Route>
         </Switch>

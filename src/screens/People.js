@@ -9,7 +9,7 @@ const People = () => {
                 <div className="list">
                     <div className="item">
                         <div className="pic">
-                            <img alt="" src="profile.png"/>
+                            <img alt="" src="/classroom/profile.png"/>
                         </div>
                         <div className="info">
                             <h3>Mehdi Abbas</h3>
@@ -22,7 +22,7 @@ const People = () => {
                 <div className="list">
                     <div className="item">
                         <div className="pic">
-                            <img alt="" src="profile.png"/>
+                            <img alt="" src="/classroom/profile.png"/>
                         </div>
                         <div className="info">
                             <h3>Student</h3>
@@ -30,7 +30,7 @@ const People = () => {
                     </div>
                     <div className="item">
                         <div className="pic">
-                            <img alt="" src="profile.png"/>
+                            <img alt="" src="/classroom/profile.png"/>
                         </div>
                         <div className="info">
                             <h3>Student</h3>
@@ -38,7 +38,7 @@ const People = () => {
                     </div>
                     <div className="item">
                         <div className="pic">
-                            <img alt="" src="profile.png"/>
+                            <img alt="" src="/classroom/profile.png"/>
                         </div>
                         <div className="info">
                             <h3>Student</h3>
@@ -46,7 +46,7 @@ const People = () => {
                     </div>
                     <div className="item">
                         <div className="pic">
-                            <img alt="" src="profile.png"/>
+                            <img alt="" src="/classroom/profile.png"/>
                         </div>
                         <div className="info">
                             <h3>Student</h3>
@@ -54,7 +54,7 @@ const People = () => {
                     </div>
                     <div className="item">
                         <div className="pic">
-                            <img alt="" src="profile.png"/>
+                            <img alt="" src="/classroom/profile.png"/>
                         </div>
                         <div className="info">
                             <h3>Student</h3>
@@ -62,7 +62,7 @@ const People = () => {
                     </div>
                     <div className="item">
                         <div className="pic">
-                            <img alt="" src="profile.png"/>
+                            <img alt="" src="/classroom/profile.png"/>
                         </div>
                         <div className="info">
                             <h3>Student</h3>
@@ -70,7 +70,7 @@ const People = () => {
                     </div>
                     <div className="item">
                         <div className="pic">
-                            <img alt="" src="profile.png"/>
+                            <img alt="" src="/classroom/profile.png"/>
                         </div>
                         <div className="info">
                             <h3>Student</h3>
@@ -78,7 +78,7 @@ const People = () => {
                     </div>
                     <div className="item">
                         <div className="pic">
-                            <img alt="" src="profile.png"/>
+                            <img alt="" src="/classroom/profile.png"/>
                         </div>
                         <div className="info">
                             <h3>Student</h3>
@@ -86,7 +86,7 @@ const People = () => {
                     </div>
                     <div className="item">
                         <div className="pic">
-                            <img alt="" src="profile.png"/>
+                            <img alt="" src="/classroom/profile.png"/>
                         </div>
                         <div className="info">
                             <h3>Student</h3>
@@ -94,7 +94,7 @@ const People = () => {
                     </div>
                     <div className="item">
                         <div className="pic">
-                            <img alt="" src="profile.png"/>
+                            <img alt="" src="/classroom/profile.png"/>
                         </div>
                         <div className="info">
                             <h3>Student</h3>

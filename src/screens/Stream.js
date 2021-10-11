@@ -9,13 +9,13 @@ const Stream = () => {
             </div>
             <div className="input">
                 <div className="dp">
-                    <img alt="Profile" src="profile.png" />
+                    <img alt="/classroom/profile" src="/classroom/profile.png" />
                 </div>
                 <input type="text" placeholder="Share with your class..." />
             </div>
             <div className="post">
                 <div className="head">
-                    <img alt="Profile" src="group.png" />
+                    <img alt="/classroom/profile" src="/classroom/group.png" />
                     <div className="info">
                         <span className="name">
                             Mehdi Abbas
@@ -32,7 +32,7 @@ const Stream = () => {
             </div>
             <div className="post">
                 <div className="head">
-                    <img alt="Profile" src="group.png" />
+                    <img alt="/classroom/profile" src="/classroom/group.png" />
                     <div className="info">
                         <span className="name">
                             Mehdi Abbas
@@ -48,7 +48,7 @@ const Stream = () => {
             </div>
             <div className="post">
                 <div className="head">
-                    <img alt="Profile" src="group.png" />
+                    <img alt="/classroom/profile" src="/classroom/group.png" />
                     <div className="info">
                         <span className="name">
                             Mehdi Abbas
@@ -68,7 +68,7 @@ const Stream = () => {
             </div>
             <div className="post">
                 <div className="head">
-                    <img alt="Profile" src="group.png" />
+                    <img alt="/classroom/profile" src="/classroom/group.png" />
                     <div className="info">
                         <span className="name">
                             Mehdi Abbas
@@ -85,7 +85,7 @@ const Stream = () => {
             </div>
             <div className="post">
                 <div className="head">
-                    <img alt="Profile" src="group.png" />
+                    <img alt="/classroom/profile" src="/classroom/group.png" />
                     <div className="info">
                         <span className="name">
                             Mehdi Abbas
