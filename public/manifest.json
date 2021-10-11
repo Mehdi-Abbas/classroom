@@ -1,25 +1,27 @@
 {
   "short_name": "Classroom",
-  "name": "Google Classroom",
+  "name": "Classroom By Mehdi",
   "icons": [
+    
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "class-logo.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose":  "any maskable"
     },
     {
-      "src": "logo192.png",
+      "src": "class-logo.png",
       "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose":  "any maskable"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
+  "scope": "/",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "theme_color": "#58a666",
+  "background_color": "#ffffff",
+  "orientation": "portrait",
+  "description": "A replica of google classroom"
+
 }
